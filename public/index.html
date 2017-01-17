@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>GET and POST</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        padding-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+      <form method="POST" action="/loginPOST">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <br>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <br>
+            
+            <button type="submit">Submit POST</button>
+      </form>
+      <br>
+      <form method="GET" action="/loginGET">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <br>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <br>
+            
+            <button type="submit">Submit GET</button>
+      </form>
+  </body>
+</html>
